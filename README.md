@@ -16,7 +16,7 @@ Starting from a Time Series DataFrame `df`
 
 ![TimeSeriesDataFrame](imgs/df.JPG)
 
-Intanciating the class `SimilarPattern`
+Instanciating the class `SimilarPattern`
 
 ```python
 patterns=SimilarPattern(df,24)
