@@ -54,7 +54,7 @@ pattern.seek_motif
 Also the overall matrix profile could be compute as:
 
 ```python 
-pattern.get_matrix_profile
+pattern.get_matrix_profile()
 ```
 
 
