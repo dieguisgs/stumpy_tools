@@ -44,7 +44,7 @@ pattern.plot_similar_pattern('2023-01-26')
 
 ![PlotMostSimilarSubsequence](imgs/plot.JPG)
 
-`Motifs` can be get as following attribute when some method using date is computed
+`Motifs` are stored as an attribute when some method using date is computed previously
 
 ```python
 pattern.seek_motif
