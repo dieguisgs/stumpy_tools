@@ -44,14 +44,12 @@ pattern.seek_motif
 Also the overall matrix profile could be compute as:
 
 ```python 
-pattern.get_matrix_profile```
+pattern.get_matrix_profile
+```
 
 
+# Citations
 
-
-----------
-Citations
-----------
     S.M. Law, (2019). STUMPY: A Powerful and Scalable Python Library for Time Series Data Mining. Journal of Open Source Software, 4(39), 1504.
 
 
