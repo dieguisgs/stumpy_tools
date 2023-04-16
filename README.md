@@ -28,7 +28,7 @@ patterns.get_similar_pattern('2023-01-26')
 
 The most similar date subsequence is shown. Sometimes some dates cant compute similarities. It depends on the data. 
 
-```
+```python
 pattern.plot_similar_pattern('2023-01-26')
 ```
 
@@ -36,7 +36,7 @@ pattern.plot_similar_pattern('2023-01-26')
 
 Motifs can be get as following attribute when some method using date is computed
 
-``` python
+```python
 pattern.seek_motif
 ```
 
