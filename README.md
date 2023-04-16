@@ -6,9 +6,11 @@ Project done by:
 |---------------------------- |------------------------------------|
 |Diego Sanz-Gadea Sánchez     | d.sanz-gadea@alu.icai.comillas.edu |
 
-Time Series Analysis using STUMPY patterns detection over a subsequences of a sequence. Computing the Euclidian Distances.
+Time Series Analysis using STUMPY LIBRARY patterns detection over a subsequences of a sequence. Computing the Euclidian Distances.
+    S.M. Law, (2019). STUMPY: A Powerful and Scalable Python Library for Time Series Data Mining. Journal of Open Source Software, 4(39), 1504.
+    
 
-# Use Example
+## Use Example
 Starting from a Time Series DataFrame `df`
 
 ![TimeSeriesDataFrame](imgs/df.JPG)
@@ -55,7 +57,7 @@ pattern.get_matrix_profile
 ```
 
 
-# Citations
+## Citations
 
     S.M. Law, (2019). STUMPY: A Powerful and Scalable Python Library for Time Series Data Mining. Journal of Open Source Software, 4(39), 1504.
 
