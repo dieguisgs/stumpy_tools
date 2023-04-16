@@ -1,5 +1,12 @@
 # stumpy_tools
-Time Series Analysis using STUMPY patterns detection over a subsequences of a sequence
+
+Project done by: 
+
+|Name                         | Email                              |
+|---------------------------- |------------------------------------|
+|Diego Sanz-Gadea Sánchez     | d.sanz-gadea@alu.icai.comillas.edu |
+
+Time Series Analysis using STUMPY patterns detection over a subsequences of a sequence. Computing the Euclidian Distances.
 
 # Use Example
 Starting from a Time Series DataFrame `df`
@@ -12,8 +19,8 @@ Creation of the Similar Pattern Class
 patterns=SimilarPattern(df,24)
 ```
 
-- If the DataFrame inserted has several columns a stacked proccess compute the 2D array into 1D, turning columns registers to only one column, adding more registers. Otherwise the sequence is a simply one, so the pattern is not taking into account other variables. Just one, the given. 
-- The second argument indicates the period of the subsequence to be compute. For 2D (several column DataFrame) Hidely the subsequence distnace computes as 24*nº columns
+- If the DataFrame inserted has several columns a stacked proccess compute the `2D array into 1D`, turning columns registers to only one column, adding more registers. Otherwise the sequence is a simply one, so the pattern is not taking into account other variables. Just one, the given. 
+- The second argument indicates the period of the subsequence to be compute. For 2D (several column DataFrame). Hidely the subsequence distnace computes as `24*nº columns`
 
 Once created the SimilarPattern object, the methods arises. Firstly with `.get_similar_patter(date)`
 
@@ -34,7 +41,7 @@ pattern.plot_similar_pattern('2023-01-26')
 
 ![PlotMostSimilarSubsequence](imgs/plot.JPG)
 
-Motifs can be get as following attribute when some method using date is computed
+`Motifs` can be get as following attribute when some method using date is computed
 
 ```python
 pattern.seek_motif
