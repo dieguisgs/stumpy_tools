@@ -4,7 +4,7 @@ Time Series Analysis using STUMPY patterns detection over a subsequences of a se
 # Use Example
 Starting from a Time Series DataFrame `df`
 
-![TimeSeriesDataFrame](imgs/df.jpg)
+![TimeSeriesDataFrame](http://github.com/dieguisgs/stumpy_tools/img/df.jpg)
 
 Creation of the Similar Pattern Class
 
@@ -32,7 +32,7 @@ The most similar date subsequence is shown. Sometimes some dates cant compute si
 pattern.plot_similar_pattern('2023-01-26')
 ```
 
-![TimeSeriesDataFrame](imgs/plot.jpg)
+![PlotMostSimilarSubsequence](http://github.com/dieguisgs/stumpy_tools/img/plot.jpg)
 
 Motifs can be get as following attribute when some method using date is computed
 
