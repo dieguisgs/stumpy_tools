@@ -12,7 +12,7 @@ Creation of the Similar Pattern Class
 patterns=SimilarPattern(df,24)
 ```
 
-- If the DataFrame inserted has several columns a scateckd proccess compute the 2D array into 1D, turning columns registers to only one column,a dding more registers. Otherwise the sequence is a simply one, so the pattern is not taking into account other variables, just one, the given. 
+- If the DataFrame inserted has several columns a stacked proccess compute the 2D array into 1D, turning columns registers to only one column,a dding more registers. Otherwise the sequence is a simply one, so the pattern is not taking into account other variables, just one, the given. 
 - The second argument indicates the period of the subsequence to be compute. For 2D (several column DataFrame) Hidely the subsequence distnace computes as 24*nº columns
 
 Once created the SimilarPattern object, the methods arises. Firstly with `.get_similar_patter(date)`
