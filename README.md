@@ -32,7 +32,7 @@ The most similar date subsequence is shown. Sometimes some dates cant compute si
 pattern.plot_similar_pattern('2023-01-26')
 ```
 
-![PlotMostSimilarSubsequence](imgs/plot.jpg)
+![PlotMostSimilarSubsequence](imgs/plot.JPG)
 
 Motifs can be get as following attribute when some method using date is computed
 
