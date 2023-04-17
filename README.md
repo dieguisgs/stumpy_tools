@@ -34,6 +34,9 @@ patterns.get_similar_pattern('2023-01-26')
 ```python
 ['2023-01-18']
 ```
+```python
+tscv = TimeSeriesInitialSplit(initial=(8760*4)+1512,increment_size=24)
+```
 
 
 The most similar date subsequence is shown. Sometimes some dates cant compute similarities. It depends on the data. 
