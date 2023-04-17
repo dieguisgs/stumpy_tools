@@ -27,12 +27,7 @@ y=df['spot']
 X=df.drop(columns=['spot'])
 
 ```
-
-
-```python
-nav=NaiveModel(tscv,shifts=24)
-nav.fit(X,y)
-nav.get_scores()
+nav.get_plot(continious=True)
 ```
 
 
