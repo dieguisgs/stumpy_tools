@@ -22,9 +22,6 @@ Instanciating the class `SimilarPattern`
 patterns=SimilarPattern(df,24)
 ```
 
-```python
-y=df['spot']
-X=df.drop(columns=['spot'])
 
 ```python
 nav.get_plot(continious=True)
