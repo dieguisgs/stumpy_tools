@@ -35,7 +35,7 @@ patterns.get_similar_pattern('2023-01-26')
 ['2023-01-18']
 ```
 ```python
-tscv = TimeSeriesInitialSplit(initial=(8760*4)+1512,increment_size=24)
+model.fit( X_train, y_train, X_prev)
 ```
 
 
