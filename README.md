@@ -22,6 +22,20 @@ Instanciating the class `SimilarPattern`
 patterns=SimilarPattern(df,24)
 ```
 
+```python
+y=df['spot']
+X=df.drop(columns=['spot'])
+
+```
+
+
+```python
+nav=NaiveModel(tscv,shifts=24)
+nav.fit(X,y)
+nav.get_scores()
+```
+
+
 - If the DataFrame inserted has several columns a stacked proccess computes the `2D array into 1D`, pivoting the columns registers to only one column, increasing registers number. Otherwise the sequence is a simply one, so the pattern is not taking into account other variables. Just one, the given. 
 - The second argument indicates the period of the subsequence to be compute. For 2D (several column DataFrame). Hidely the subsequence distancees computes as `24*nº columns`
 
