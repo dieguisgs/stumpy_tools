@@ -26,7 +26,7 @@ patterns=SimilarPattern(df,24)
 y=df['spot']
 X=df.drop(columns=['spot'])
 
-```
+```python
 nav.get_plot(continious=True)
 ```
 
